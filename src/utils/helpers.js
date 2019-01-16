@@ -1,9 +1,9 @@
-import emojis from 'emoji.json';
+import emojiList from './emojiList.json';
 
 export default function filterEmojis(searchTerm, maxSize) {
-  const filtered = emojis
+  const filtered = emojiList
     .filter((emoji) => {
-      return emoji.name.includes(searchTerm) || emoji.keywords.includes(searchTerm);
+      return emoji.title.toLowerCase().includes(searchTerm) || emoji.keywords.includes(searchTerm);
     })
     .slice(0, maxSize);
 
