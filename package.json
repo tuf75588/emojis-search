@@ -2,6 +2,7 @@
   "name": "emojis-search",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tuf75588.github.io/emojis-search/",
   "dependencies": {
     "clipboard": "^2.0.4",
     "prop-types": "^15.6.2",
