@@ -9,7 +9,13 @@ class App extends Component {
     emojiData: filterEmojis('', 20)
   };
 
-  handleNewData = (searchTerm) => {};
+  handleNewData = (searchTerm) => {
+    this.setState((state, props) => {
+      return {
+        emojiData: filterEmojis(searchTerm, 20)
+      };
+    });
+  };
   render() {
     return (
       <>

@@ -2,8 +2,21 @@
   padding: 10px;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
 }
 .emoji-component-results img {
   height: 32px;
   width: 32px;
+}
+.emoji-component-results > .title {
+  margin: 5px;
+}
+.emoji-component-results .copy-message {
+  margin-left: auto;
+  display: none;
+  color: #ccc;
+}
+.emoji-component-results:hover .copy-message {
+  display: inline;
 }

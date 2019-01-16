@@ -10,6 +10,7 @@ class EmojiInput extends React.Component {
         searchTerm: value
       };
     });
+    this.props.handleSearchChange(value);
   };
   render() {
     return (
