@@ -6,6 +6,6 @@ export default function filterEmojis(searchTerm, maxSize) {
       return emoji.name.includes(searchTerm) || emoji.keywords.includes(searchTerm);
     })
     .slice(0, maxSize);
-  console.log(filtered);
+
   return filtered;
 }

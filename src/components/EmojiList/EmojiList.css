@@ -1,0 +1,9 @@
+.emoji-component-results {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.emoji-component-results img {
+  height: 32px;
+  width: 32px;
+}
