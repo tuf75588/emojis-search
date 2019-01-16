@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3a3d9cf735b0ba750a28",
+    "revision": "0c22e53098396504b40c",
     "url": "/emojis-search/static/css/main.c32d5a40.chunk.css"
   },
   {
-    "revision": "3a3d9cf735b0ba750a28",
-    "url": "/emojis-search/static/js/main.3a3d9cf7.chunk.js"
+    "revision": "0c22e53098396504b40c",
+    "url": "/emojis-search/static/js/main.0c22e530.chunk.js"
   },
   {
     "revision": "6ebccf5798bf0d6c55e5",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/emojis-search/static/js/runtime~main.b00718ae.js"
   },
   {
-    "revision": "73364f71e78d9f714563059ef5f6bcb1",
+    "revision": "a73d690265c5faa41b054d078ce1a01f",
     "url": "/emojis-search/index.html"
   }
 ];
