@@ -1,8 +1,8 @@
-import React from 'react';
-import './EmojiInput.css';
+import React from "react";
+import "./EmojiInput.css";
 class EmojiInput extends React.Component {
   state = {
-    searchTerm: ''
+    searchTerm: ""
   };
   handleInputChange = ({ target: { value } }) => {
     this.setState((state, props) => {
@@ -10,16 +10,16 @@ class EmojiInput extends React.Component {
         searchTerm: value
       };
     });
-    this.props.handleSearchChange(value);
+    this.props.handleSearchChange(value.toLowerCase());
   };
   render() {
     return (
-      <div className="emoji-search-input">
+      <div className='emoji-search-input'>
         <div>
           <input
-            type="text"
-            name="keyword"
-            placeholder="Search for emoji by keyword!"
+            type='text'
+            name='keyword'
+            placeholder='Search for emoji by keyword!'
             onChange={this.handleInputChange}
           />
         </div>
